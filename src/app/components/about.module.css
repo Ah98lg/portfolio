@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa a altura total da tela */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    font-family: var(--font-mono)
+}
+
+.profilePic {
+    border-radius: 50%; /* Torna a imagem circular */
+}
+
+.text {
+    max-width: 400px;
+}
+
